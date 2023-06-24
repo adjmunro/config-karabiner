@@ -71,7 +71,7 @@
         ]
       },
       {
-        "description": "Command + Esc to Command + Tilda",
+        "description": "Command + Esc to Command + Tilda (Switch to Next Window)",
         "manipulators": [
           {
             "conditions": [
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "description": "Command + Shift + Esc to Command + Shift + Tilda",
+        "description": "Command + Shift + Esc to Command + Shift + Tilda (Switch to Previous Window)",
         "manipulators": [
           {
             "conditions": [
