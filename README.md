@@ -2,8 +2,8 @@
 Configuration files for my Karabiner Elements at `~/.config/karabiner`.
 
 ### Installation
-1. ([Repo](https://github.com/pqrs-org/Karabiner-Elements)) Homebrew: `brew install --cask karabiner-elements`
-2. Go to `~/.config/karabiner` and clone this repo.
+1. `cd ~/.config && git clone git@github.com:adjmunro/config-karabiner.git karabiner`
+2. Homebrew: `brew install --cask karabiner-elements` ([Repo](https://github.com/pqrs-org/Karabiner-Elements))
 
 ### Current Configs
 Profiles: Qwerty, Engram (Affects all keyboards)
