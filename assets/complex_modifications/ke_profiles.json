@@ -1,0 +1,49 @@
+{
+    "title": "Karabiner Elements - Profile Switching",
+    "rules": [
+      {
+        "description": "[Cmd + Shift + Hyphen(-)] to Switch to Qwerty Profile",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "hyphen",
+              "modifiers": {
+                "mandatory": [
+                  "command",
+                  "shift"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Qwerty'"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[Cmd + Shift + Equals(=)] to Switch to Engram Profile",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "equal_sign",
+              "modifiers": {
+                "mandatory": [
+                  "command",
+                  "shift"
+                ]
+              }
+            },
+            "to": [
+              {
+                "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Engram'"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

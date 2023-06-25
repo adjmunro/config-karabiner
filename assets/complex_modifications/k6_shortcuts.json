@@ -1,0 +1,95 @@
+{
+    "title": "Keychron K6 Shortcuts",
+    "rules": [
+      {
+        "description": "[Home] to Show Desktop",
+        "manipulators": [
+          {
+            "conditions": [
+              {
+                "type": "device_if",
+                "identifiers": [
+                  {
+                    "product_id": 591,
+                    "vendor_id": 1452,
+                    "is_keyboard": true
+                  }
+                ]
+              }
+            ],
+            "type": "basic",
+            "from": {
+              "key_code": "home"
+            },
+            "to": [
+              {
+                "key_code": "f11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[Page Up] to Show Misson Control",
+        "manipulators": [
+          {
+            "conditions": [
+              {
+                "type": "device_if",
+                "identifiers": [
+                  {
+                    "product_id": 591,
+                    "vendor_id": 1452,
+                    "is_keyboard": true
+                  }
+                ]
+              }
+            ],
+            "type": "basic",
+            "from": {
+              "key_code": "page_up"
+            },
+            "to": [
+              {
+                "key_code": "up_arrow",
+                "modifiers": [
+                  "control"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "[Page Down] to Show Spotlight",
+        "manipulators": [
+          {
+            "conditions": [
+              {
+                "type": "device_if",
+                "identifiers": [
+                  {
+                    "product_id": 591,
+                    "vendor_id": 1452,
+                    "is_keyboard": true
+                  }
+                ]
+              }
+            ],
+            "type": "basic",
+            "from": {
+              "key_code": "page_down"
+            },
+            "to": [
+              {
+                "key_code": "down_arrow",
+                "modifiers": [
+                  "control"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

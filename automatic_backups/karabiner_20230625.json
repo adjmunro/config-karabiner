@@ -18,51 +18,7 @@
                 },
                 "rules": [
                     {
-                        "description": "[Cmd + Shift + Hyphen(-)] to Switch to Qwerty Profile",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "hyphen",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "command",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Qwerty'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "[Cmd + Shift + Equals(=)] to Switch to Engram Profile",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "equal_sign",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "command",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Engram'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "[Shift + Esc] to Type [Grave(`)]",
+                        "description": "Shift + Esc to ` Grave Accent",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -95,7 +51,7 @@
                         ]
                     },
                     {
-                        "description": "[Ctrl + Esc] to Type [Tilde(~)]",
+                        "description": "Control + Esc to Tilde",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -131,7 +87,7 @@
                         ]
                     },
                     {
-                        "description": "[Cmd + Esc] to Cycle to Next Window ([Cmd + ~ ])",
+                        "description": "Command + Esc to Command + Tilda (Switch to Next Window)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -167,7 +123,7 @@
                         ]
                     },
                     {
-                        "description": "[Cmd + Shift + Esc] to Cycle to Previous Window ([Cmd + Shift + ~ ])",
+                        "description": "Command + Shift + Esc to Command + Shift + Tilda (Switch to Previous Window)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -205,7 +161,7 @@
                         ]
                     },
                     {
-                        "description": "[Home] to Show Desktop",
+                        "description": "Home to Show Desktop",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -233,7 +189,7 @@
                         ]
                     },
                     {
-                        "description": "[Page Up] to Show Misson Control",
+                        "description": "Page up to misson control",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -264,7 +220,7 @@
                         ]
                     },
                     {
-                        "description": "[Page Down] to Show Spotlight",
+                        "description": "Page down to spotlight",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -295,7 +251,7 @@
                         ]
                     },
                     {
-                        "description": "[Ctrl + Enter] to Launch/Show iTerm2 if(!=foreground)",
+                        "description": "Launch/show iTerm if it is not in foreground",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -307,7 +263,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "return_or_enter",
+                                    "key_code": "home",
                                     "modifiers": {
                                         "mandatory": [
                                             "control"
@@ -324,7 +280,7 @@
                         ]
                     },
                     {
-                        "description": "[Ctrl + Enter] to Minimize iTerm2 if(==foreground)",
+                        "description": "Minimize iTerm if it is in foreground",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -336,7 +292,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "return_or_enter",
+                                    "key_code": "home",
                                     "modifiers": {
                                         "mandatory": [
                                             "control"
@@ -373,7 +329,7 @@
                         "product_id": 641,
                         "vendor_id": 1452
                     },
-                    "ignore": false,
+                    "ignore": true,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
@@ -566,51 +522,7 @@
                 },
                 "rules": [
                     {
-                        "description": "[Cmd + Shift + Hyphen(-)] to Switch to Qwerty Profile",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "hyphen",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "command",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Qwerty'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "[Cmd + Shift + Equals(=)] to Switch to Engram Profile",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "equal_sign",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "command",
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "'/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_cli' --select-profile 'Engram'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "[Shift + Esc] to Type [Grave(`)]",
+                        "description": "Shift + Esc to ` Grave Accent",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -643,7 +555,7 @@
                         ]
                     },
                     {
-                        "description": "[Ctrl + Esc] to Type [Tilde(~)]",
+                        "description": "Control + Esc to Tilde",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -679,7 +591,7 @@
                         ]
                     },
                     {
-                        "description": "[Cmd + Esc] to Cycle to Next Window ([Cmd + ~ ])",
+                        "description": "Command + Esc to Command + Tilda (Switch to Next Window)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -715,7 +627,7 @@
                         ]
                     },
                     {
-                        "description": "[Cmd + Shift + Esc] to Cycle to Previous Window ([Cmd + Shift + ~ ])",
+                        "description": "Command + Shift + Esc to Command + Shift + Tilda (Switch to Previous Window)",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -753,7 +665,7 @@
                         ]
                     },
                     {
-                        "description": "[Home] to Show Desktop",
+                        "description": "Home to Show Desktop",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -781,7 +693,7 @@
                         ]
                     },
                     {
-                        "description": "[Page Up] to Show Misson Control",
+                        "description": "Page up to misson control",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -812,7 +724,7 @@
                         ]
                     },
                     {
-                        "description": "[Page Down] to Show Spotlight",
+                        "description": "Page down to spotlight",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -843,7 +755,7 @@
                         ]
                     },
                     {
-                        "description": "[Ctrl + Enter] to Launch/Show iTerm2 if(!=foreground)",
+                        "description": "Launch/show iTerm if it is not in foreground",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -855,7 +767,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "return_or_enter",
+                                    "key_code": "home",
                                     "modifiers": {
                                         "mandatory": [
                                             "control"
@@ -872,7 +784,7 @@
                         ]
                     },
                     {
-                        "description": "[Ctrl + Enter] to Minimize iTerm2 if(==foreground)",
+                        "description": "Minimize iTerm if it is in foreground",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -884,7 +796,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "return_or_enter",
+                                    "key_code": "home",
                                     "modifiers": {
                                         "mandatory": [
                                             "control"

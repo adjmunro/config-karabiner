@@ -1,13 +1,13 @@
 {
-    "title": "Use func (or fn2) + Home to show/hide iTerm (Quake-style \"instant terminal\")",
+    "title": "Instant Terminal (iTerm2)",
     "rules": [
       {
-        "description": "Launch/show iTerm if it is not in foreground",
+        "description": "[Ctrl + Enter] to Launch/Show iTerm2 if(!=foreground)",
         "manipulators": [
           {
             "type": "basic",
             "from": {
-              "key_code": "home",
+              "key_code": "return_or_enter",
               "modifiers": {
                 "mandatory": [
                   "control"
@@ -31,12 +31,12 @@
         ]
       },
       {
-        "description": "Minimize iTerm if it is in foreground",
+        "description": "[Ctrl + Enter] to Minimize iTerm2 if(==foreground)",
         "manipulators": [
           {
             "type": "basic",
             "from": {
-                "key_code": "home",
+                "key_code": "return_or_enter",
                 "modifiers": {
                     "mandatory": [
                       "control"

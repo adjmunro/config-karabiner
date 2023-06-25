@@ -1,0 +1,33 @@
+{
+    "title": "Hyperkey Modifiers (Modifier Combos)",
+    "rules": [
+        {
+            "description": "Hold [Caps Lock] to Trigger Hyperkey [Ctrl + Opt + Shift + Cmd]",
+            "manipulators": [
+            {
+                "type": "basic",
+                "from": {
+                    "key_code": "caps_lock",
+                    "modifiers": {
+                        "optional": [
+                        "caps_lock"
+                        ]
+                    }
+                },
+                "to_if_held_down": {
+                    "key_code": "left_shift",
+                    "modifiers": [
+                    "left_command",
+                    "left_control",
+                    "left_option"
+                    ],
+                    "halt": true
+                },
+                "to_after_key_up": {
+                    "key_code": "caps_lock"
+                }
+            }
+            ]
+        }
+    ]
+}
